@@ -1,0 +1,548 @@
+[ 
+  { 
+    "Description" : "Analog/mixed-signal ICs provide signal processing/amplification, analog/digital conversion (DACs, ADCs), analog interface, signal conditioning and power-management functions. They include operational amplifiers, comparators, data converters, voltage regulators/references, and inverter ICs.",
+    "Id" : 90,
+    "ParentId" : 89,
+    "Title" : "Analog/ Mixed Signal ICs"
+  },
+  { 
+    "Description" : "Devics and components used for the amplification of an electrical signal, including operation amplifiers",
+    "Id" : 91,
+    "ParentId" : 90,
+    "Title" : "Amplifiers"
+  },
+  { 
+    "Description" : "Microcircuits which contains semiconductor devices and passive resistive elements.",
+    "Id" : 92,
+    "ParentId" : 90,
+    "Title" : "Communications"
+  },
+  { 
+    "Description" : "IC used for Ethernet, USB, Display Port and other communication methods, plus level translators, and sensor interface devices.",
+    "Id" : 93,
+    "ParentId" : 90,
+    "Title" : "Communications/ Interface"
+  },
+  { 
+    "Description" : "Devices used to compare voltage or current levels and switch its output accordingly",
+    "Id" : 94,
+    "ParentId" : 90,
+    "Title" : "Comparators"
+  },
+  { 
+    "Description" : "Semiconductor diodes, including Schottky, Zener, silicon, germanium devices.",
+    "Id" : 95,
+    "ParentId" : 90,
+    "Title" : "Diodes"
+  },
+  { 
+    "Description" : "Discrete transistors and power devices, including MOSFETs, IGBTs, bipolar transistors, FETs and silicon carbide devices",
+    "Id" : 96,
+    "ParentId" : 90,
+    "Title" : "Discrete, Power Transistors"
+  },
+  { 
+    "Description" : "Devices used for driving LED or display devices",
+    "Id" : 97,
+    "ParentId" : 90,
+    "Title" : "Drivers (Displays, LED, etc.)"
+  },
+  { 
+    "Description" : "Devices used for the generation and maintenance of timing signals for electronic circuits",
+    "Id" : 98,
+    "ParentId" : 90,
+    "Title" : "PLLs, Timing Devices"
+  },
+  { 
+    "Description" : "ICs that hold an output voltage at a predetermined value, or causes it to vary across a range, regardless of normal input voltage change or changes in the load impedance. Includes power converters and voltage regulators. Fixed regulators combine various internal circuitry for changing unregulated DC voltage into a fixed regulated DC output voltage. Energy harvesting circuits for collecting waste energy.",
+    "Id" : 99,
+    "ParentId" : 90,
+    "Title" : "Power Management"
+  },
+  { 
+    "Description" : "Bipolar junction transistors, insulated-gate bipolar transistors IGBTs, gate-turn-off thyristors, silicon-controlled rectifier.",
+    "Id" : 100,
+    "ParentId" : 90,
+    "Title" : "Power Semiconductors"
+  },
+  { 
+    "Description" : "Sensor ICs consist of semiconductor circuit elements that are used to send information about its surrounding (light, pressure, heat, ect) in the form of electric signals, or data. Family may consists of Hall effect sensors, image sensors, magnetic sensors, and more.",
+    "Id" : 101,
+    "ParentId" : 90,
+    "Title" : "Sensors"
+  },
+  { 
+    "Description" : "Analog, digital, or mixed-signal ICs that perform a specific application or function",
+    "Id" : 102,
+    "ParentId" : 90,
+    "Title" : "SoCs, ASICs, ASSPs, MEMS"
+  },
+  { 
+    "Description" : "Standard linear ICs are basically analog devices characterized by a theoretically infinite number of possible operating states. A linear IC operates over a continuous range of input levels. Family consists of amplifiers and comparators, data converters, and power management ICs.",
+    "Id" : 103,
+    "ParentId" : 90,
+    "Title" : "Standard Linear"
+  },
+  { 
+    "Description" : "Section includes distinct circuit components such as transistors, Schottky diodes, diodes, rectifiers, thyristors, triacs, MOSFETs.",
+    "Id" : 104,
+    "ParentId" : 90,
+    "Title" : "Transistors/ Diodes"
+  },
+  { 
+    "Description" : "Board products include single-board computers of every form-factor (SFF, VME, PCI, Multibus), memory systems, communication, graphics accelerators, USB and Ethernet cards, and security accelerator cards",
+    "Id" : 105,
+    "ParentId" : 89,
+    "Title" : "Board Level Products"
+  },
+  { "Description" : "Ethernet, USB, CAN, RS-485 and other communication modules/cards.",
+    "Id" : 106,
+    "ParentId" : 105,
+    "Title" : "Communication Boards"
+  },
+  { "Description" : "I/O drives, analog and digital I/O, sensor input and analysis cards.",
+    "Id" : 107,
+    "ParentId" : 105,
+    "Title" : "Interface"
+  },
+  { "Description" : "Memory cards or SIMM modules with DRAM, flash, ROM, MRAM, FRAM, SRAM, DDR, DDR2, or other memory as their prime purpose.",
+    "Id" : 108,
+    "ParentId" : 105,
+    "Title" : "Memory/ Storage"
+  },
+  { "Description" : "Boards for HDMI, video processing, audio processing, graphics cards.",
+    "Id" : 109,
+    "ParentId" : 105,
+    "Title" : "Multimedia"
+  },
+  { "Description" : "Radar and various sensor data processing, analog or digital.",
+    "Id" : 110,
+    "ParentId" : 105,
+    "Title" : "Signal Processing"
+  },
+  { "Description" : "All forms of central processing cards.",
+    "Id" : 111,
+    "ParentId" : 105,
+    "Title" : "Single Board Computer"
+  },
+  { "Description" : "Devices used in association with a computer - such as peripherals for storage like disk drives and memory sub-systems, printers, Ethernet switch units, USB muliplexers, I/O cards of all kinds, RAID back-up devices, specialty displays, and computer systems themselves.",
+    "Id" : 112,
+    "ParentId" : 89,
+    "Title" : "Computer Peripherals"
+  },
+  { "Description" : "Network appliances, wireless com units, etc.",
+    "Id" : 113,
+    "ParentId" : 112,
+    "Title" : "Communication Peripherals"
+  },
+  { "Description" : "Graphics cards, display terminals, TV interface, LCD interface.",
+    "Id" : 114,
+    "ParentId" : 112,
+    "Title" : "Display / Graphics"
+  },
+  { "Description" : "Keyboard, mouse, touch pad, and other I/O.",
+    "Id" : 115,
+    "ParentId" : 112,
+    "Title" : "Input / Output"
+  },
+  { "Description" : "Hard disk, solid state disk, flash and RAM memory sub-systems.",
+    "Id" : 116,
+    "ParentId" : 112,
+    "Title" : "Storage"
+  },
+  { "Description" : "Complete Systems.",
+    "Id" : 117,
+    "ParentId" : 112,
+    "Title" : "Systems"
+  },
+  { "Description" : "Complete PC or Apple desk-top, server, workstation, or portable computer systems such as laptops, netbooks, notebooks and smart mobile devices",
+    "Id" : 118,
+    "ParentId" : 89,
+    "Title" : "Computer Systems"
+  },
+  { "Description" : "PICMIG, Control Modules, MCU-based control modules, Microprocessor modules.",
+    "Id" : 119,
+    "ParentId" : 118,
+    "Title" : "Modules"
+  },
+  { "Description" : "Servers for Workstations, Data Centers, Command and Control",
+    "Id" : 120,
+    "ParentId" : 118,
+    "Title" : "Servers"
+  },
+  { "Description" : "Personal Computers (PCs), Apple Macintosh, Macs, Linux systems, Mobile Systems, Laptops, Netbooks, iPads, Handheld Systems, Tablet PCs, Android Tablets",
+    "Id" : 121,
+    "ParentId" : 118,
+    "Title" : "Standalone/ Mobile"
+  },
+  { "Description" : "Microprocessors and microcontrollers (MCU), digital signal processors (DSP), and all kinds of communications chips including Ethernet, RapidI/O, PIC Express, and USB, memory such as DRAM, SRAM, and MRAM, plus FPGAs, CPLDs and other programmable logic, as well as SoCs, ASICs and ASSPs.",
+    "Id" : 122,
+    "ParentId" : 89,
+    "Title" : "Digital ICs"
+  },
+  { "Description" : "IC used for Ethernet, USB, Display Port and other communication methods, plus level translators, and sensor interface devices.",
+    "Id" : 123,
+    "ParentId" : 122,
+    "Title" : "Communications/ Interface"
+  },
+  { "Description" : "All RAM, EEPROM, flash, MRAM, phase change, memory IP, and all other memories.",
+    "Id" : 124,
+    "ParentId" : 122,
+    "Title" : "Memory"
+  },
+  { "Description" : "Microprocessors, digital signal processors, microcontrollers, and processing IP of all types and sizes.",
+    "Id" : 125,
+    "ParentId" : 122,
+    "Title" : "Microprocessors, Microcontrollers, DSPs"
+  },
+  { "Description" : "Analog, digital, or mixed-signal ICs that perform a specific application or function",
+    "Id" : 126,
+    "ParentId" : 122,
+    "Title" : "SoCs, ASICs, ASSPs, MEMS"
+  },
+  { "Description" : "ASICs, FPGAs, and CPLDs, along with standard logic products.",
+    "Id" : 127,
+    "ParentId" : 122,
+    "Title" : "Standard and Programmable Logic"
+  },
+  { "Description" : "IC with a prime purpose of video or audio processing or conversion.",
+    "Id" : 128,
+    "ParentId" : 122,
+    "Title" : "Video/ Graphics/ Audio"
+  },
+  { "Description" : "Discrete semiconductor components including bipolar transistors, diodes, MOSFETs, IGBTs, and discrete RF/wireless products.",
+    "Id" : 129,
+    "ParentId" : 89,
+    "Title" : "Discrete Semiconductors"
+  },
+  { "Description" : "Bipolar junction transistors, insulated-gate bipolar transistors IGBTs, gate-turn-off thyristors, silicon-controlled rectifier.",
+    "Id" : 130,
+    "ParentId" : 129,
+    "Title" : "Power Semiconductors"
+  },
+  { "Description" : "Section includes distinct circuit components such as transistors, Schottky diodes, diodes, rectifiers, thyristors, triacs, MOSFETs.",
+    "Id" : 131,
+    "ParentId" : 129,
+    "Title" : "Transistors/ Diodes"
+  },
+  { "Description" : "Electromechanical devices including motors and solinoids and their controls, plus switches and relays. Does not include connectors.",
+    "Id" : 132,
+    "ParentId" : 89,
+    "Title" : "Electromechanical Components"
+  },
+  { "Description" : "Devices that allow electric current to flow when closed and prevent current flow when opened.",
+    "Id" : 133,
+    "ParentId" : 132,
+    "Title" : "Electromechanical Switches"
+  },
+  { "Description" : "Motors convert energy into motion and can be used as a power source, motor controller are device responsible for regulating the voltage applied to an electric motor.",
+    "Id" : 134,
+    "ParentId" : 132,
+    "Title" : "Motors and Controllers"
+  },
+  { "Description" : "A relay is an electrical switch that opens and closes under the control of another electrical circuit. Solenoids are used as switches and relays.",
+    "Id" : 135,
+    "ParentId" : 132,
+    "Title" : "Relays and Solenoids"
+  },
+  { "Description" : "Connections for power, data, or signals. Single and multi-pin/-socket. interconnects like RJ-45s, CAT-7 cable, or a CPU socket are integral to most designs.",
+    "Id" : 136,
+    "ParentId" : 89,
+    "Title" : "Interconnections"
+  },
+  { "Description" : "Devices providing separable but through connections in cable-to-chassis, component-to-board, board-to-board, rack-to-panel applications, etc. Includes all types of adapters, connectors, jacks, plugs, sockets, etc.",
+    "Id" : 137,
+    "ParentId" : 136,
+    "Title" : "Connectors"
+  },
+  { "Description" : "Devices providing separable but through connections in cable-to-chassis, component-to-board, board-to-board, rack-to-panel applications, etc. Includes all types of adapters, connectors, jacks, plugs, sockets, etc.",
+    "Id" : 138,
+    "ParentId" : 136,
+    "Title" : "Sockets and Pins"
+  },
+  { "Description" : "Copper, aluminum or orther types of wire and multiple wire cables",
+    "Id" : 139,
+    "ParentId" : 136,
+    "Title" : "Wire and Cable"
+  },
+  { "Description" : "Production services and contract manufacturing.",
+    "Id" : 140,
+    "ParentId" : 89,
+    "Title" : "Manufacturing"
+  },
+  { "Description" : "Devices, systems, systems, software and techniques that aid in the packaging, manufacturing and assembly of integrated circuits and printed circuit boards, including flip chip, known good die, wafer manufacturing, wirebonding and board layout tools and equipment.",
+    "Id" : 141,
+    "ParentId" : 140,
+    "Title" : "IC and Board Assembly"
+  },
+  { "Description" : "Light emiting diodes (LEDS), indicators, lamps, bulbs, reflectors, light guides, LCDs, OLEDs, Plasma and similar displays, and opto couplers. Does not include fiber optic transceivers.",
+    "Id" : 142,
+    "ParentId" : 89,
+    "Title" : "Optoelectronics"
+  },
+  { "Description" : "Within this category you will find both alphanumeric and video display panels intended for incorporation into consumer as well as industrial, commercial, mil/aero, and medical applications. Device technologies include CRT, LED, LCD, Plasma, OLED, MEMS shutter, and more.",
+    "Id" : 143,
+    "ParentId" : 142,
+    "Title" : "Displays"
+  },
+  { "Description" : "Connectors and transceivers for fiber optic communications.",
+    "Id" : 144,
+    "ParentId" : 142,
+    "Title" : "Fiber-optic Connectors, Cables, Transceivers"
+  },
+  { "Description" : "Various types of specialty electronic subsystems and optical components are commonly used with light sources, image sensors, and lasers to tailor them for different applications. Examples include optical windows and lenses as well as laser power sources.",
+    "Id" : 145,
+    "ParentId" : 142,
+    "Title" : "Hardware and Accessories"
+  },
+  { "Description" : "This category covers devices that detect visible, UV, and IR radiation. Included are such components as CCD and CMOS imagers, IR and UV detectors, light screens, color sensors, and more.",
+    "Id" : 146,
+    "ParentId" : 142,
+    "Title" : "Image Sensors and Optical Detectors"
+  },
+  { "Description" : "The lamps and bulbs included in this category generate visible, ultraviolet, and/or infrared emissions and typically have standard interfaces (such as Edison or bayonet base) for connecting to lighting systems. They generate light using various technologies: incandescent, cold-cathode and compact fluorescent, solid-state, and others. Applications may include general purpose lighting, status indicators, photoflash, and industrial processing and printing equipment.",
+    "Id" : 147,
+    "ParentId" : 142,
+    "Title" : "Lamps and Bulbs"
+  },
+  { "Description" : "Lasers included in this category cover a broad emission spectrum and range from chip-scale devices for distance measurement to full-sized industrial units for tasks such as metal cutting and welding.",
+    "Id" : 148,
+    "ParentId" : 142,
+    "Title" : "Lasers"
+  },
+  { "Description" : "Light-emitting diodes are widely used in all types of electronics today as indicators, for display illumination, and increasingly for general purpose lighting. The LEDs covered here are components that may be used by engineers to create such systems.",
+    "Id" : 149,
+    "ParentId" : 142,
+    "Title" : "LEDs"
+  },
+  { "Description" : "An optocoupler is used to transmit either analog or digital information from one voltage potential to another while maintaining isolation of the potentials of less than 5,000 V. The optoisolator is designed to isolate power systems while transmitting analog or digital data between the systems with isolation voltage between the power systems from 5,000 to more than 50,000 V.",
+    "Id" : 150,
+    "ParentId" : 142,
+    "Title" : "Optocouplers and Optoisolators"
+  },
+  { "Description" : "Cabinets, enclosures, fasteners, retainers, panels, clips, shielding (EMI, RFI) and racks, as well as sealants, coatings, materials, shielding and insulation adhesives, IC packaging, flip chip, known good die (KGD), wirebonding, plastic, ceramic, overmolding, PLCC, SOIC, TSOP, BGA, CBGA, LCC,",
+    "Id" : 151,
+    "ParentId" : 89,
+    "Title" : "Packaging & Hardware"
+  },
+  { "Description" : "Substances used to bond one surface to another surface by attachment or to cover a single or multiple surfaces.",
+    "Id" : 152,
+    "ParentId" : 151,
+    "Title" : "Adhesives, Sealants, Coatings"
+  },
+  { "Description" : "Integrated Circuit and similar packaging, including Flip Chip, known good die (KGD), wirebonding, heatsinks, plastic, ceramic, overmolding, PLCC, SOIC, TSOP, BGA, CBGA, LCC, DIP, Leadless",
+    "Id" : 153,
+    "ParentId" : 151,
+    "Title" : "Device Packaging"
+  },
+  { "Description" : "Surrounding cases used to protect equipment against external conditions or to protect humans from contact with live parts.",
+    "Id" : 154,
+    "ParentId" : 151,
+    "Title" : "Enclosures, Cabinets and Chassis"
+  },
+  { "Description" : "Connectors used when it is necessary to fasten two elements tightly together.",
+    "Id" : 155,
+    "ParentId" : 151,
+    "Title" : "Fasteners, Retainers, Panels, Clips"
+  },
+  { "Description" : "Tools to aid in design.",
+    "Id" : 156,
+    "ParentId" : 151,
+    "Title" : "Prototyping Tools, Equipment, Services"
+  },
+  { "Description" : "Insulating materials pertains to dielectrics, heat sinks, etc., while shielding materials applies to items that suppress EMI/RFI.",
+    "Id" : 157,
+    "ParentId" : 151,
+    "Title" : "Shielding and Insulation"
+  },
+  { "Description" : "Electronic components including resistors, capacitors, transformers, and inductors plus antennas., modules, and circuit-protection devices such as MOVs",
+    "Id" : 158,
+    "ParentId" : 89,
+    "Title" : "Passive Components"
+  },
+  { "Description" : "A system of wires or other conductors used to transmit or receive radio or other electromagnetic waves.",
+    "Id" : 159,
+    "ParentId" : 158,
+    "Title" : "Antennas"
+  },
+  { "Description" : "A passive electronic component consisting of a pair of conductors separated by a dielectric.",
+    "Id" : 160,
+    "ParentId" : 158,
+    "Title" : "Capacitors"
+  },
+  { "Description" : "Devices used to stop current flow or open the circuit.",
+    "Id" : 161,
+    "ParentId" : 158,
+    "Title" : "Circuit Protection"
+  },
+  { "Description" : "Magnetic induction occurs whenever a conductor passes through magnetic lines of flux. An inductor is the part of an electric circuit, usually a coil, in which an electromotive force is generated; transformers transfer alternating-current energy by electromagnetic induction.",
+    "Id" : 162,
+    "ParentId" : 158,
+    "Title" : "Magnetics, Inductors, Transformers"
+  },
+  { "Description" : "Oscillators are active devices that generate power at a frequency determined by circuit parameters. A crystal is a solid material that vibrates at a specific frequency when energy is supplied. A SAW filter is a semiconductor device that is used to filter out desired frequencies.",
+    "Id" : 163,
+    "ParentId" : 158,
+    "Title" : "Oscillators, Crystals, Saw Filters"
+  },
+  { "Description" : "Resistors are electronic components that resists the flow of current in an electronic circuit. Potentiometers are variable resistors, typically three-terminal types with a sliding contact that creates an adjustable voltage divider.",
+    "Id" : 164,
+    "ParentId" : 158,
+    "Title" : "Resistors and Potentiometers"
+  },
+  { "Description" : "Power sources, power supplies (bricks and modules) at all power levels and form factors. Includes uninterruptible power supplies (UPSs), AC/DC, DC/AC, batteries, rechargeable batteries and alternative power sources such as fuel cells, energy harvesting, and wind power. Does not include bench-top teat power supplies.",
+    "Id" : 165,
+    "ParentId" : 89,
+    "Title" : "Power Products"
+  },
+  { "Description" : "Refers to components, devices, and equipment that supply electrical power to other boards, units, or systems. It includes ac power systems, ac to dc power supplies, uninterruptible power supplies.",
+    "Id" : 166,
+    "ParentId" : 165,
+    "Title" : "AC/DC Power Supplies"
+  },
+  { "Description" : "Batteries convert chemical, solar, or thermal energy into DC electrical energy. Featured are a host of chemical technologies using properties of lithium, silver, zinc, etc. Included are fuel cells and auxiliary products e.g. battery chargers, and battery packs.",
+    "Id" : 167,
+    "ParentId" : 165,
+    "Title" : "Batteries and Fuel Cells"
+  },
+  { "Description" : "The DC to DC power supply section represents energy sources which generate DC power outputs when a DC input is applied. Products are distinguished with different input voltage ranges and output wattages.",
+    "Id" : 168,
+    "ParentId" : 165,
+    "Title" : "DC/DC Convertors"
+  },
+  { "Description" : "Devices that convert DC into AC.",
+    "Id" : 169,
+    "ParentId" : 165,
+    "Title" : "Invertors"
+  },
+  { "Description" : "Analog circuitry control and digital circuitry control of power.",
+    "Id" : 170,
+    "ParentId" : 165,
+    "Title" : "Power and Control"
+  },
+  { "Description" : "ICs that hold an output voltage at a predetermined value, or causes it to vary across a range, regardless of normal input voltage change or changes in the load impedance. Includes power converters and voltage regulators. Fixed regulators combine various internal circuitry for changing unregulated DC voltage into a fixed regulated DC output voltage. Energy harvesting circuits for collecting waste energy.",
+    "Id" : 171,
+    "ParentId" : 165,
+    "Title" : "Power Management"
+  },
+  { "Description" : "Bipolar junction transistors, insulated-gate bipolar transistors IGBTs, gate-turn-off thyristors, silicon-controlled rectifier.",
+    "Id" : 172,
+    "ParentId" : 165,
+    "Title" : "Power Semiconductors"
+  },
+  { "Description" : "RF and microwave devices for wired and wireless communications and RADAR - amplifiers, attenuators, duplexers, frequency synthesizers, filters, waveguides, MMICs, VCOs, PLLs.",
+    "Id" : 173,
+    "ParentId" : 89,
+    "Title" : "RF & Microwave Components"
+  },
+  { "Description" : "Components used in RF / Microwave.",
+    "Id" : 174,
+    "ParentId" : 173,
+    "Title" : "Microwave Components"
+  },
+  { "Description" : "RF / Microwave is a collective term referring to passive and active devices and equipment used at high frequency. Major product areas include amplifiers, attenuators, mixers, oscillators, switches, etc.",
+    "Id" : 175,
+    "ParentId" : 173,
+    "Title" : "RF and Microwave"
+  },
+  { "Description" : "Sensors and transducers, including image, current, magnetic, proximity, vibration, temperature, light, accelerometers, Hall Effect sensors, piezoelectric, level sensors, pressure sensors, barometers, thermistors, microphones, and speakers.",
+    "Id" : 176,
+    "ParentId" : 89,
+    "Title" : "Sensors & Transducers"
+  },
+  { "Description" : "This category covers devices that detect visible, UV, and IR radiation. Included are such components as CCD and CMOS imagers, IR and UV detectors, light screens, color sensors, and more.",
+    "Id" : 177,
+    "ParentId" : 176,
+    "Title" : "Image Sensors and Optical Detectors"
+  },
+  { "Description" : "Sensor ICs consist of semiconductor circuit elements that are used to send information about its surrounding (light, pressure, heat, ect) in the form of electric signals, or data. Family may consists of Hall effect sensors, image sensors, magnetic sensors, and more.",
+    "Id" : 178,
+    "ParentId" : 176,
+    "Title" : "Sensors"
+  },
+  { "Description" : "This category includes nonmonolithic devices that rely on electronic or electromechanical circuitry to perform sensing tasks and/or translation of energy from one fundamental form (electrical, mechanical, chemical) to another. Typical devices include multichip MEMS accelerometers, industrial pressure sensors, audio alerts and buzzers, and piezoelectric strain gauges.",
+    "Id" : 179,
+    "ParentId" : 176,
+    "Title" : "Sensors and Transducers"
+  },
+  { "Description" : "Solenoids, linear actuators, and similar devices",
+    "Id" : 180,
+    "ParentId" : 176,
+    "Title" : "Transducers"
+  },
+  { "Description" : "Design tools for software, hardware and systems design and system software such as operatiing systems. Software for design optimization, PCB layout, FPGA design, and system software like Eclipse, SystemC, and JAVA.",
+    "Id" : 181,
+    "ParentId" : 89,
+    "Title" : "Software"
+  },
+  { "Description" : "Design tools used for hardware or software development, including compilers, debuggers, and LINT tools",
+    "Id" : 182,
+    "ParentId" : 181,
+    "Title" : "Development Tools and Software"
+  },
+  { "Description" : "EDA (Electronic Design Automation) hardware and software are tools that help designers capture and verify the functional and physical characteristics of their designs before they actually manufacture them. They also allow for designers to design complex products – reducing further time to market and cost.",
+    "Id" : 183,
+    "ParentId" : 181,
+    "Title" : "EDA Software and Hardware"
+  },
+  { "Description" : "Operating systems, software IP of all kinds, network and virtualization software.",
+    "Id" : 184,
+    "ParentId" : 181,
+    "Title" : "System"
+  },
+  { "Description" : "Software for control of test instrumentation, analysis of test data, and implementation of test methods and structures (DFT) is included in this category.",
+    "Id" : 185,
+    "ParentId" : 181,
+    "Title" : "Test and Measurement, Software"
+  },
+  { "Description" : "Test and measurement equipment such as ocilloscopes, DSOs, signal analyzers, multimeters, automatic test equipment, logic analyzers, signal generators, communication test sets, hand-held and bench-top meters, bench power supplies, and conformance test stations.",
+    "Id" : 186,
+    "ParentId" : 89,
+    "Title" : "Test and Measurement"
+  },
+  { "Description" : "Automatic test equipment usually found in manufacturing test systems.",
+    "Id" : 187,
+    "ParentId" : 186,
+    "Title" : "ATE"
+  },
+  { "Description" : "This category includes R&D and laboratory instruments intended for use with mains power on a test bench or as part of an instrumentation rack. Equipment covered includes oscilloscopes, system multimeters, logic analyzers, spectrum analyzers, signal generators, precision programmable power sources, and more.",
+    "Id" : 188,
+    "ParentId" : 186,
+    "Title" : "Benchtop, Rack Mountable"
+  },
+  { "Description" : "Instrumentation included in this category is intended for gathering data in industrial and other harsh environments. Since the measurements performed by some of the devices are typically part of a larger process control system or operation, also included here are HMIs for process-control systems as well as process controllers themselves.",
+    "Id" : 189,
+    "ParentId" : 186,
+    "Title" : "Panel Meters/ Data Loggers/ Monitors/ Process Control"
+  },
+  { "Description" : "Intended for on-site or in-the-field use, instruments in this category are lightweight and usually have a built-in rechargeable power source or replaceable batteries. While the instruments are small and compact, their performance is not necessarily inferior to benchtop/rack-mount instrumentation.",
+    "Id" : 190,
+    "ParentId" : 186,
+    "Title" : "Portable / Handheld"
+  },
+  { "Description" : "Software for control of test instrumentation, analysis of test data, and implementation of test methods and structures (DFT) is included in this category.",
+    "Id" : 191,
+    "ParentId" : 186,
+    "Title" : "Test and Measurement, Software"
+  },
+  { "Description" : "Fans, blowers, heat sinks, heaters, coolers, compressors, thermal management materials, and similar devices for control of temperature.",
+    "Id" : 192,
+    "ParentId" : 89,
+    "Title" : "Thermal Management"
+  },
+  { "Description" : "For cooling. Includes AC and DC types.",
+    "Id" : 193,
+    "ParentId" : 192,
+    "Title" : "Fans and Blowers"
+  },
+  { "Description" : "Heat-regulating devices that conduct and dissipate unwanted heat.",
+    "Id" : 194,
+    "ParentId" : 192,
+    "Title" : "Heat Sinks and Thermal Materials"
+  },
+  { "Description" : "Involves the absorption of heat when current is sent through a junction of two dissimilar metals.",
+    "Id" : 195,
+    "ParentId" : 192,
+    "Title" : "Thermoelectric Coolers"
+  }
+]

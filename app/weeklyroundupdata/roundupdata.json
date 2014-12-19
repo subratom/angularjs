@@ -1,0 +1,26 @@
+[
+	{
+		"Id": 1,
+		"StartDate": "12-15-2014",
+		"EndDate": "12-21-2014",
+		"TaxonomyId": 132,
+		"Title": "Electromechanical Components",
+		"Description": "Electromechanical devices including motors and solinoids and their controls, plus switches and relays. Does not include connectors."
+	},
+	{
+		"Id": 2,
+		"StartDate": "12-22-2014",
+		"EndDate": "12-28-2014",
+		"TaxonomyId": 142,
+		"Title": "Optoelectronics",
+		"Description": "Light emiting diodes (LEDS), indicators, lamps, bulbs, reflectors, light guides, LCDs, OLEDs, Plasma and similar displays, and opto couplers. Does not include fiber optic transceivers."
+	},
+	{
+		"Id": 3,
+		"StartDate": "12-29-2014",
+		"EndDate": "01-04-2015",
+		"TaxonomyId": 135,
+		"Title": "Relays and Solenoids",
+		"Description": "A relay is an electrical switch that opens and closes under the control of another electrical circuit. Solenoids are used as switches and relays."
+	}
+]
